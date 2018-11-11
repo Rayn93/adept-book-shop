@@ -1,0 +1,150 @@
+/*
+ Theme Name:   Adept Book Shop
+ Theme URI:    http://robertsaternus.pl/
+ Description:  Book shop for Adept
+ Author:       Robert Saternus
+ Author URI:   http://robertsaternus.pl/
+ Template:     Divi
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  adept-book-shop
+*/
+
+
+.full-image-slider .et_pb_slide {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.full-image-slider .et_pb_slide:first-child .et_pb_slide_image img.active {
+    animation: unset !important;
+}
+
+.full-image-slider .et_pb_container {
+    max-width: 100% !important;
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+}
+
+.full-image-slider .et_pb_slide_image img {
+    max-height: none !important;
+    width: 100% !important;
+}
+
+.full-image-slider .et_pb_slide_image {
+    margin: 0 !important;
+    padding: 0 !important;
+    top: 0 !important;
+    position: relative !important;
+    width: 100% !important;
+    display: block !important;
+    -webkit-animation-name: fade !important;
+    -moz-animation-name: fade !important;
+    -ms-animation-name: fade !important;
+    -o-animation-name: fade !important;
+    animation-name: fade !important;
+}
+
+.full-image-slider .et_pb_slider_container_inner {
+    position: relative;
+}
+
+.full-image-slider .et_pb_slide_description {
+    position: absolute !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right:  0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: auto !important;
+    height: auto !important;
+}
+
+.full-image-slider .et_pb_slide_description .et_pb_button_wrapper,
+.full-image-slider .et_pb_slide_description .et_pb_button_wrapper a,
+.full-image-slider .et_pb_slide_description .et_pb_button_wrapper a:hover {
+    width: 100% !important;
+    height: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    color: rgba(0, 0, 0, 0) !important;
+    border: none !important;
+    background: none !important;
+}
+
+.et_pb_column.et_pb_slider_fullwidth_off.full-image-slider .et_pb_slide_description .et_pb_slide_title,
+.et_pb_column.et_pb_slider_fullwidth_off.full-image-slider .et_pb_slide_description .et_pb_slide_content,
+.full-image-slider .et_pb_slide_description .et_pb_slide_title,
+.full-image-slider .et_pb_slide_description .et_pb_slide_content {
+    display: none;
+}
+
+/*My style*/
+
+.home-shop-section{
+
+}
+
+.home .welcome-section h1{
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.home .welcome-section p{
+    font-size: 25px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.home .home-book-title{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.home .home-book-header{
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.home .home-book-description{
+    font-size: 19px;
+}
+
+.home .woocommerce div.product div.images.woocommerce-product-gallery {
+    width: 70%;
+    margin-left: 15%;
+}
+
+.home .woocommerce div.product div.summary,
+.home .woocommerce-tabs,
+.home .related {
+    display: none;
+}
+
+.separator {
+    margin: 30px auto;
+    width: 80%;
+    position: relative;
+}
+
+.separator .mask {
+    overflow: hidden;
+    height: 20px;
+}
+
+.separator .mask:after {
+    content: '';
+    display: block;
+    margin: -25px auto 0;
+    width: 100%;
+    height: 25px;
+    border-radius: 270px / 12px;
+    box-shadow: 0 0 7px black;
+}
