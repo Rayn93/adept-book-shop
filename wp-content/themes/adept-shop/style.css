@@ -148,3 +148,26 @@
     border-radius: 270px / 12px;
     box-shadow: 0 0 7px black;
 }
+
+.single-product.woocommerce div.product div.images img{
+    width: 70%;
+    margin-left: 15%;
+    padding-bottom: 30px;
+}
+
+.single-product .product_meta{
+    display: none;
+}
+
+#et_top_search{
+    display: none;
+}
+
+.woocommerce-account #footer-bottom{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    z-index: 10000;
+}
